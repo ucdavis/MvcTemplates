@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MvcTemplates.Models
 {
@@ -15,11 +16,11 @@ namespace MvcTemplates.Models
         /// <summary>
         /// Since we want to leverage automatic properties, init appropriate members here.
         /// </summary>
-        
+        [Required]
         public virtual string CompanyName { get; set; }
-
+        [Required]
         public virtual string ContactName { get; set; }
-
+        [Required]
         public virtual string Country { get; set; }
         public virtual string Fax { get; set; }
 

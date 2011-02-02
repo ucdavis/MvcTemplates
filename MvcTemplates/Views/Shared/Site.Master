@@ -14,11 +14,20 @@
             <div id="title">
                 <h1>My MVC Application</h1>
             </div>
-                    
+
+            <div id="login">
+                &nbsp;
+            </div>
+
+              
             <div id="menucontainer">
             
                 <ul id="menu">              
                     <li><%: Html.ActionLink("Home", "Index", "Home")%></li>
+                    <li><%: Html.ActionLink("Show Customer", "Show", "Customer")%></li>
+                    <li><%: Html.ActionLink("Edit Customer", "Edit", "Customer")%></li>
+                    <li><%: Html.ActionLink("Show Order", "Show", "Order")%></li>
+                    <li><%: Html.ActionLink("Edit Order", "Edit", "Order")%></li>
                     <li><%: Html.ActionLink("About", "About", "Home")%></li>
                 </ul>
             

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MvcTemplates.Models
 {
@@ -21,6 +22,14 @@ namespace MvcTemplates.Models
                             };
 
             return order;
+        }
+
+        public static IEnumerable<Customer> GetNCustomers(int n)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                yield return new Customer("Customer" + i) { Id = i + 1};
+            }
         }
     }
 }

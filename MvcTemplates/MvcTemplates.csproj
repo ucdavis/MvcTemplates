@@ -65,7 +65,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -77,6 +79,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Views\Customer\Edit.aspx" />
+    <Content Include="Views\Customer\Show.aspx" />
+    <Content Include="Views\Order\Edit.aspx" />
+    <Content Include="Views\Order\Show.aspx" />
+    <Content Include="Views\Shared\DisplayTemplates\IncludeComplexValues.ascx" />
+    <Content Include="Views\Shared\DisplayTemplates\Object.ascx" />
+    <Content Include="Views\Shared\EditorTemplates\DateTime.ascx" />
+    <Content Include="Views\Shared\EditorTemplates\IncludeComplexValues.ascx" />
+    <Content Include="Views\Shared\EditorTemplates\Object.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
