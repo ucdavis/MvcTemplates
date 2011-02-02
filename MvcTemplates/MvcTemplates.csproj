@@ -78,6 +78,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Order_Edit.png" />
+    <Content Include="Content\Order_Show.png" />
     <Content Include="Content\prettify.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\prettify.js" />
