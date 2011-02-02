@@ -78,7 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\prettify.css" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\prettify.js" />
     <Content Include="Views\Customer\Edit.aspx" />
     <Content Include="Views\Customer\Show.aspx" />
     <Content Include="Views\Order\Edit.aspx" />

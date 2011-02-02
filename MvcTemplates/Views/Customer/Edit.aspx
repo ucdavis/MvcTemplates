@@ -13,4 +13,11 @@
     <%: Html.EditorForModel() %>
 </table>
 
+<h4>Source</h4>
+<pre class="prettyprint">
+&lt;table&gt;
+    &lt;%: Html.EditorForModel() %&gt;
+&lt;/table&gt;
+</pre>
+
 </asp:Content>
