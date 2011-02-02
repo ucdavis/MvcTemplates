@@ -23,6 +23,6 @@ namespace MvcTemplates.Models
         public virtual string Country { get; set; }
         public virtual string Fax { get; set; }
 
-        public virtual IList<Order> Orders { get; protected set; }
+        //public virtual IList<Order> Orders { get; protected set; }
     }
 }
